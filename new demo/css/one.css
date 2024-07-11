@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#z-top{
+    margin-bottom: 50%px;
+}
+#nav-h:hover{ 
+    background-color: white;
+    color: red; 
+}
+#bar{
+    position: relative;
+    right: 45%;
+    bottom: 150px;
+    border-radius: 90px;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 3fr 1fr fr 1fr 1fr;
+    width: 100%;
+    grid-template-areas: 
+    "n n n n"
+    "t t t t"
+    "h h h h"
+    "b b b b"
+    "z z z z"
+    "s s s s"
+    "br br br br"
+    "u u u u"
+    "f f f f"
+    "c c c c";
+}
+.nav{
+    background-color: #c1121f;
+    grid-area: n;
+    display: flex;
+}
+.top{
+    display: flex;
+    color: white;
+    grid-area: t;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    grid-area: t;
+}
+.t-pic{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+h1{
+    padding: 20px;
+}
+.txt{
+    margin-top: 75px;
+    position: sticky;
+}
+h{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.im{
+    margin-top: 30%; 
+}
+.head{
+    display: flex;
+    word-spacing: 20px;
+    background-color: white;
+    color: black;
+    grid-area: h;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.h-p{
+    margin: 30px;
+    margin-top:100px;
+}
+#title{
+    position: sticky;
+    top: 10px;
+    transition: cubic-bezie
+}
+#title:hover{
+    font-size: larger;
+    transition: 2s;
+}
+.cen{
+    padding-top: 10%;
+    display: flex;
+    background-color: #bf06038a;
+    grid-area: b;
+    color: white;
+    padding-left: 2%;
+}
+.l-txt{
+    padding: 20px;
+}
+#l-image{
+    bottom: 20vh;
+}
+.rounded mx-auto d-block{
+    /* position: relative; */
+    bottom: 8vh;
+    width: auto;
+}
+#d-txt{
+    padding: 10px;
+}
+.zorob{
+    padding-top: 10%;
+    display: flex;
+    background-color: #0080007d;
+    grid-area: z;
+    color: white;
+    padding-left: 2%;
+
+}
+.sanji{
+    padding-top: 10%;
+    display: flex;
+    background-color: #ffa20098;
+    grid-area: s;
+    color: white;
+    padding-left: 2%;  
+}
+.brook{
+    padding-top: 10%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.688);
+    grid-area: br;
+    color: black;
+    padding-left: 2%;  
+}
+.usopp{
+    padding-top: 10%;
+    display: flex;
+    background-color: #7109b79d;
+    grid-area: u;
+    color: white;
+    padding-left: 2%;    
+}
+.franky{
+    padding-top: 10%;
+    display: flex;
+    background-color: #4362eeaa;
+    grid-area: f;
+    color: white;
+    padding-left: 2%;
+}
+.chopper{
+    padding-top: 10%;
+    display: flex;
+    background-color: #ff477ea8;
+    grid-area: c;
+    color: white;
+    padding-left: 2%;
+}
+#c-img{
+    width: 200px;
+    height: 200px;
+    bottom: 100;
+}
